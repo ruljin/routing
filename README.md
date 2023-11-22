@@ -32,9 +32,9 @@ Sam _React_ jako biblioteka UI, nie ma zaimplementowanego w sobie żadnego mecha
 
 W tym celu trzeba zainstalować zewnętrzną bibliotekę. Jest ich kilka ale najpopularniejszą jest **React Router**, której użyjemy.
 
-## Instalacja "React-Router-Dom"
+## Instalacja "React-Router"
 
-Żeby zainstalować tą bibliotekę, wystarczy wpisać takie polecenie z wykorzystaniem _npm_:
+Żeby zainstalować **React Router**, wystarczy wpisać polecenie (z wykorzystaniem _npm_):
 
 ```bash
 npm install react-router-dom --save
