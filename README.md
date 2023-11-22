@@ -42,7 +42,7 @@ npm install react-router-dom --save
 
 ## Wykorzystanie komponentu "BrowserRouter"
 
-Żeby nasza aplikacja mogła korzystać z mechanizmu _routingu_, jaki udostępnia biblioteka _react router_, możemy w pliku `index.tsx` zrobić następującą rzecz:
+Żeby nasza aplikacja mogła korzystać z mechanizmu _routingu_, jaki udostępnia biblioteka **React Router**, możemy w pliku `index.tsx` zrobić następującą rzecz:
 
 ```typescript
 import { BrowserRouter } from "react-router-dom";
@@ -56,7 +56,7 @@ root.render(
 );
 ```
 
-Komponent ten, przechowuje informacją na temat naszej aktualnej lokacji w aplikacji w pasku adresu URL tworząc ładnie wyglądające i proste w odczytaniu adresy URL oraz pozwala na nawigowanie po niej, wykorzystując wbudowany w przeglądarkę tzw. _history API_.
+Komponent ten, przechowuje informacje na temat naszej aktualnej lokacji (w aplikacji) w pasku adresu **URL** tworząc ładnie wyglądające i proste w odczytaniu adresy oraz pozwala na nawigowanie po niej, wykorzystując wbudowany w przeglądarkę tzw. _history API_.
 
 Więcej o tym komponencie, możecie znaleźć [tu](https://reactrouter.com/en/main/router-components/browser-router).
 
