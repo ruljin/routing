@@ -24,13 +24,13 @@ Usuń też całą zawartość pliku `App.css` lub `App.scss`, jeżeli masz zains
 
 **Routing** w aplikacjach webowych, to sposób w jaki decyduje ona o tym, jaki zasób w postaci strony, widoku czy czegokolwiek innego ma ona wyświetlić użytkownikowi w odpowiedzi na jego działanie.
 
-Najbliższą temu analogią, będzie porównanie tego do kiedyś częściej używanych map drogowych, gdzie każda trasa określona jest w celu dotarcia z punktu A do punktu B. W przypadku stron i aplikacji internetowych, określa ona jakie elementy powinny być wyświetlane w reakcji na różne wartośći w adresie URL, które są wprowadzone przez użytkownika w przeglądarce.
+Najbliższą temu analogią, będzie porównanie tego do kiedyś częściej używanych map drogowych, gdzie każda trasa określona jest w celu dotarcia z punktu A do punktu B. W przypadku stron i aplikacji internetowych, określa ona jakie elementy powinny być wyświetlane w reakcji na różne wartości w adresie URL, które są wprowadzone przez użytkownika w przeglądarce.
 
-W _React_ cały temat **routingu** rozbija się o to jakie komponenty ma nam wyświetlić na poszczególnych ścieżkach URL. **Routing** po stronie frontu w aplikacjach SPA różni się od **routingu** po stronie backu. Jako, że mówimy tu o **Single Page Application**, czyli aplikacji jednostronnicowej, przekierowanie następuje w obrębie jednej strony, więc nie ma żadnego przeładowywania a adres URL jest w pewien sposób zmieniany w trochę sztuczny sposób by tego mechanizmu nie wywołać.
+W _React_ cały temat **routingu** rozbija się o to jakie komponenty ma wyświetlić na poszczególnych ścieżkach **URL**. **Routing** po stronie frontu w aplikacjach **SPA** różni się od **routingu** po stronie backu. Jako, że mowa o **Single Page Application** (czyli aplikacji jednostronnicowej), przekierowanie następuje w obrębie jednej strony, więc nie ma żadnego przeładowywania a adres **URL** jest zmieniany w trochę sztuczny sposób, co w konsekwencji nie powoduje przeładowania.
 
-Sam _React_ jako biblioteka UI, nie ma zaimplementowanego w sobie żadnego mechanizmu do **routingu**, jakiego używają aplikacje typu SPA.
+Sam _React_ jako biblioteka UI, nie ma zaimplementowanego w sobie żadnego mechanizmu do **routingu**, jakiego używają aplikacje typu **SPA**.
 
-W tym celu trzeba zainstalować zewnętrzną bibliotekę. Jest ich kilka ale najpopularniejszą jest **React Router**.
+W tym celu trzeba zainstalować zewnętrzną bibliotekę. Jest ich kilka ale najpopularniejszą jest **React Router**, której użyjemy.
 
 ## Instalacja "React-Router-Dom"
 
